@@ -14,7 +14,7 @@ import {
   } from 'discord.js';
 import {Embeds} from "discord-paginationembed";
 
-/* Burağa Selamlar */
+
 
 export default class Embed extends EventEmitter {
 public users:Snowflake[];
@@ -22,7 +22,7 @@ public channel: any;
 public valu: any;
 public sayfa: number;
 public embedDes: Array<any>;
-private pagination: any;
+public pagination: any;
 public bos: any;
 public embedString: string;
 constructor(authorization:Snowflake[],channel: TextChannel | DMChannel | NewsChannel, description:Array<any>,sayfa:number,color:string,value?:any){

@@ -14,7 +14,7 @@ import {
   } from 'discord.js';
 import {Embeds} from "discord-paginationembed";
 
-
+/* Burağa Selamlar */
 
 export default class Embed extends EventEmitter {
 public users:Snowflake[];

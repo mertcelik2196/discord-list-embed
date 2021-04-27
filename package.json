@@ -1,0 +1,35 @@
+{
+  "name": "discord-list-embed",
+  "version": "1.0.0",
+  "description": "✨ Discord List Embed Pages",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build && tsc",
+    "test": "npm run build && ts-node ./tests/simple.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mertcelik2196/discord-list-embed"
+  },
+  "author": "Mert Çelik",
+  "license": "MIT",
+  "dependencies": {
+    "discord-paginationembed": "^2.1.0",
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.32",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "keywords": [
+ "discord",
+ "discordembed",
+ "discord-list-embed",
+ "reaction-embed"
+  ]
+}

@@ -13,7 +13,7 @@ npm install discord-list-embed
 
 ## Nasıl Kullanılır? 💫
 
-# TypeSript 
+# TypeScript 
 
 ```ts
 import List from "discord-list-embed";
